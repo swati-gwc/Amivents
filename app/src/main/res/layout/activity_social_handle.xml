@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1f6a9c"
+    tools:context=".SocialHandle">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="166dp"
+                android:background="#fcd303"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="CONNECT WITH US!"
+                android:typeface="serif"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="30dp"
+                android:background="#1f6a9c"
+                android:gravity="center"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+        <!--first row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/instagram"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="15dp"
+                android:elevation="1dp"
+                android:drawableTop="@drawable/ic_insta"
+                android:layout_marginTop="30dp"
+                android:layout_weight=".50"
+                android:height="126dp"
+                android:background="@drawable/buttonshape"
+                android:gravity="center"
+                android:text="INSTAGRAM" />
+
+            <Button
+                android:id="@+id/facebook"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_margin="8dp"
+                android:drawableTop="@drawable/ic_fb"
+                android:padding="15dp"
+                android:elevation="1dp"
+                android:text="FACEBOOK"
+                android:height="126dp"
+                android:layout_weight=".50"
+                android:background="@drawable/buttonshape"/>
+        </LinearLayout>
+        <!--2nd row -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/web"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="15dp"
+                android:drawableTop="@drawable/ic_web"
+                android:layout_marginTop="30dp"
+                android:elevation="1dp"
+                android:layout_weight=".50"
+                android:height="126dp"
+                android:background="@drawable/buttonshape"
+                android:gravity="center"
+                android:text="WEBSITE" />
+
+            <Button
+                android:id="@+id/twitter"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="15dp"
+                android:elevation="1dp"
+                android:drawableTop="@drawable/ic_twitter"
+                android:layout_marginTop="30dp"
+                android:layout_weight=".50"
+                android:height="126dp"
+                android:background="@drawable/buttonshape"
+                android:gravity="center"
+                android:text="TWITTER"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="176dp"
+                android:textStyle="italic"
+                android:textColor="#fff"
+                android:text="Please like , share and follow our page!!"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

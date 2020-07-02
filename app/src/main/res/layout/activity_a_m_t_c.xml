@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbeec1"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_header"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/header"
+            android:scaleType="centerCrop"/>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/amtclogo"
+            android:layout_centerHorizontal="true"
+            android:elevation="5dp"
+            android:layout_below="@+id/img_header"
+            android:layout_marginTop="-75dp"
+            app:civ_border_width="3dp" />
+
+        <RelativeLayout
+            android:id="@+id/secondbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_header"
+            android:background="#bc986a"
+            android:elevation="4dp"
+            android:paddingBottom="24dp">
+
+            <TextView
+                android:id="@+id/title_amtc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:text="AMTC"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/subtitle_amtc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_amtc"
+                android:layout_centerHorizontal="true"
+                android:textSize="17sp"
+                android:text="AMITY MICROSOFT TECH CLUB" />
+
+            <TextView
+                android:id="@+id/noofmember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle_amtc"
+                android:text="(97 members)"
+                android:layout_centerHorizontal="true"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/noofmember"
+                android:layout_marginTop="13dp"
+                android:weightSum="2">
+
+
+                <Button
+                    android:id="@+id/details_bttn"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/buttonshape"
+                    android:layout_weight="1"
+                    android:text="DETAILS"/>
+
+                <Button
+                    android:id="@+id/join_bttn"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="JOIN"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/secondbox"
+            android:text="ABOUT"
+            android:layout_centerHorizontal="true"
+            android:textColor="#82878c"
+            android:textSize="18sp"
+            android:layout_marginVertical="2dp"/>
+
+        <TextView
+            android:id="@+id/para"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:layout_marginHorizontal="13dp"
+            android:text="@string/Aboutamtc"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

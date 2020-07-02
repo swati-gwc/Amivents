@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#477871"
+    tools:context=".AmtcEvents">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ClubEventTitle"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="AMTC : EVENTS"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="#ebc20e"/>
+
+        <Button
+            android:id="@+id/btn_upcom_events"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPCOMING EVENTS"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/buttonshape"/>
+        <Button
+            android:id="@+id/btn_curr_events"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CURRENT EVENTS"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginHorizontal="15dp"/>
+
+        <Button
+            android:id="@+id/btn_past_events"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAST EVENTS"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginHorizontal="15dp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

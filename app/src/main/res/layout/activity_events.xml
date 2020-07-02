@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Events"
+    android:background="#fbeec1">
+
+    <TextView
+        android:id="@+id/AmityEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:text="EVENTS"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:background="#c28515"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textColor="#000"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/evt_recycleview"
+        android:layout_below="@+id/AmityEvents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

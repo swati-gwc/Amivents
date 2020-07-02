@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.layoutpractise3">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Events"></activity>
+        <activity android:name=".FormAmtc" />
+        <activity android:name=".AmtcUpEventsDisp" />
+        <activity android:name=".amtc_UpEvents" />
+        <activity android:name=".Profile" />
+        <activity android:name=".CoreTeamMembers" />
+        <activity android:name=".Picview" />
+        <activity android:name=".AmtcPhoto" />
+        <activity android:name=".Amtc_members" />
+        <activity android:name=".AmtcEvents" />
+        <activity android:name=".Aboutamtc" />
+        <activity android:name=".SocialHandle" />
+        <activity android:name=".Amtc_details" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AMTC" />
+        <activity android:name=".tech" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

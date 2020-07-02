@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4688cf"
+    tools:context=".MainActivity"
+    android:id="@+id/drawer">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:background="#f2c82e"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:text="Societies"
+                        android:textColor="#000"
+                        android:textAllCaps="true"
+                        android:typeface="serif"
+                        android:textSize="50sp" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:height="30dp"
+                        android:background="#4688cf"
+                        android:gravity="center"
+                        android:textSize="10sp" />
+
+
+                </LinearLayout>
+                <!--first row-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/tech"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight=".50"
+                        android:height="126dp"
+                        android:background="@drawable/buttonshape"
+                        android:gravity="center"
+                        android:text="TECHNICAL" />
+
+                    <Button
+                        android:id="@+id/dance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_margin="8dp"
+                        android:text="DANCE"
+                        android:height="126dp"
+                        android:gravity="center"
+                        android:layout_weight=".50"
+                        android:background="@drawable/buttonshape"/>
+                </LinearLayout>
+                <!--2nd row -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/music"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="MUSIC"
+                        android:height="126dp"
+                        android:gravity="center"
+                        android:layout_weight=".50"
+                        android:background="@drawable/buttonshape"/>
+
+                    <Button
+                        android:id="@+id/art"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="ART"
+                        android:height="126dp"
+                        android:gravity="center"
+                        android:layout_weight=".50"
+                        android:background="@drawable/buttonshape"/>
+                </LinearLayout>
+                <!--3rd row -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/drama"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="DRAMA"
+                        android:height="126dp"
+                        android:gravity="center"
+                        android:layout_weight=".50"
+                        android:background="@drawable/buttonshape"/>
+                    <Button
+                        android:id="@+id/literary"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="LITERARY"
+                        android:height="126dp"
+                        android:gravity="center"
+                        android:layout_weight=".50"
+                        android:background="@drawable/buttonshape"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:height="176dp"
+                        android:text="Flying beyond the horizon of academics...."
+                        android:gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </FrameLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:menu="@menu/nav_menu"
+        android:background="#fbeec1"
+        app:headerLayout="@layout/nav_header"
+        android:layout_gravity="start">
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

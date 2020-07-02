@@ -1,0 +1,509 @@
+<resources>
+    <string name="app_name">AMIVENTS</string>
+    <string name="technical_socities">TECHNICAL SOCITIES</string>
+    <string name="todo">TODO</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSED</string>
+
+    <string name="AmiVents">
+        College is a phase where one develops his /her overall confidence and personality.
+        In Amity School of Engineering And Technology,we organise and manage a plethora of cultural
+        events. Our motive is to keep our culture,festivals and Important dates alive in the
+        hearts of the students and faculty members .
+        We inspire the students to showcase their skills and talents in various platforms by
+        giving them opportunities and guiding them as well. We all are busy in building our
+        better future, and in our academic schedule, but we tend to leave behind other activities,
+        due to this our mind bacomes stagnant and stressful. We organise a recreational
+        environment which aims in keeping our other interests and keeping them alive.
+        We also nurture, enhance and polish them.
+
+        This app is all-in-one platform where you can know about all clubs and events held at ASET.
+        It will provide you an easy way to search the event you are looking for and willing to participate.
+        Enjoy!!
+    </string>
+
+    <!-- AMTC DETAILS -->
+
+    <string name="Aboutamtc">Amity Microsoft Tech Club at Amity University, Noida has a clear
+        mission to help the students in the campus and offer any kind of support that may be
+        needed in either technical or non-technical areas and also to guide them in finding their
+        most suitable career. It is a community that aims at ensuring that students are up to date
+        with the latest technology. It supports and hosts events through which students can gather
+        knowledge about the current technology.This tech-club is all about learning new
+        technologies, be it HTML5, CSS3, .NET, JAVA, etc and providing help in bringing out the
+        best in all the students.</string>
+    <string name="aboutamtcpage">AMTC is an official club of Amity University,
+        established by the CSE students of Amity Noida with the incentive to spark and instil the
+        fervor to gather knowledge,stay apprised with the latest technology and create innovative
+        applications.Here, we believe that theoretical knowledge can help you make a future but the
+        overall grooming can make you a fortune. That is why our club has never left any stone
+        unturned in providing the students a varied range of opportunities along with great learning
+        exposure. It provides the students a practical and realistic approach to life by extending a
+        platform to enhance their social skills, management skills, creativity, overall grooming,
+        etc. This is achieved by giving them exposure to technical as well as non-technical events
+        to help them enhance their personality and lead their way through the tough competition
+        in today’s world.</string>
+    <string-array name="programming_languages">
+        <item>Sooraj Randhir Singh</item>
+        <item>Alakh Arora</item>
+        <item>Nikita Gulati</item>
+        <item>Dev Dhankar</item>
+        <item>Arushi Batra</item>
+        <item>Rakesh Mishra</item>
+        <item>Sanaya Jain</item>
+        <item>Shiv Pandey</item>
+        <item>Krishan Kumar Makkar</item>
+        <item>Prateek Mishra</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>President</item>
+        <item>Vice President</item>
+        <item>Treasurer</item>
+        <item>Management Lead</item>
+        <item>PR Lead</item>
+        <item>Content Lead</item>
+        <item>Event Lead</item>
+        <item>Design Lead</item>
+        <item>GS</item>
+        <item>Deputy GS</item>
+    </string-array>
+
+    <string-array name="Amtc_EVENT_TITLE">
+        <item>GITHUB Workshop</item>
+        <item>Security Fundamentals Workshop</item>
+        <item>IoT workshop</item>
+        <item>Triviathon Workshop</item>
+        <item>Competetive Programming Workshop</item>
+        <item>React Native Workshop</item>
+        <item>Intro to Python Workshop</item>
+        <item>Web Development Seminar</item>
+        <item>Artificial Intelligence Intro Seminar</item>
+        <item>Blockchain Workshop</item>
+
+    </string-array>
+
+    <string-array name="AMTC_Event_Day">
+        <item>THURSDAY, 3/09/2020</item>
+        <item>MONDAY, 7/09/2020</item>
+        <item>THURSDAY, 17/09/2020</item>
+        <item>FRIDAY, 18/09/2020</item>
+        <item>WEDNESDAY, 23/09/2020</item>
+        <item>TUESDAY, 22/09/2020</item>
+        <item>THURSDAY, 1/10/2020</item>
+        <item>FRIDAY, 18/09/2020</item>
+        <item>MONDAY, 28/09/2020</item>
+        <item>THURSDAY,24/09/2020</item>
+
+    </string-array>
+
+    <string-array name="EventTime">
+        <item>10:00am- 1:00pm</item>
+        <item>1:00pm-3:30pm</item>
+        <item>4:00pm-5:00pm</item>
+        <item>12:00pm-2:00pm</item>
+        <item>2:00pm-3:00pm</item>
+        <item>1:00pm-3:00pm</item>
+        <item>3:00pm-4:30pm</item>
+        <item>2:15pm-3:45pm</item>
+        <item>11:00am-1:15pm</item>
+        <item>1:00pm-3:20pm</item>
+
+    </string-array>
+
+    <string-array name="EventVenue">
+        <item>E3-211</item>
+        <item>E1-321</item>
+        <item>C-301</item>
+        <item>E2- Main Auditorium</item>
+        <item>EG-011</item>
+        <item>E1-311</item>
+        <item>E1-310</item>
+        <item>Palm Court in front of E3 Building</item>
+        <item>E3-211</item>
+        <item>E3-110</item>
+
+    </string-array>
+    <string-array name="EventPurpose">
+        <item>This event is for intro of Github and its usage. These days its important for each student to learn about Git and Github. Hence, any student looking to learn about this must join this event.</item>
+        <item>The aim of the event is to demonstrate what security fundamentals is and what are its usages and importance.Mr Ram Agnihotri will be our keynote speaker.</item>
+        <item>With Digital Revolution ,IoT is gaining tremendous popularity. This workshop aims to show students the endless oppurtunities IoT has and will provide in near future.</item>
+        <item>Trivi-a-thon is a three round coding competition. Any student aiming to improve its coding skills must participate in this competetion. Participation cerrtificate will be provided. Winners will get cash prizes and other perks.</item>
+        <item>Is C.P. difficult to you then this workshop is the best way to get head start into the world of C.P! Attend the event to learn how to master the art of programming.</item>
+        <item>Day by day React Native is gaining popularity. In today\'s fast changing world, you must be updated and well aware of new technologies and programming language. This workshop will provide valuable insight to React Native language along with its usage, importance amd scope in future.</item>
+        <item>Pyhton is must to learn programming language these days. Register for this event to get a kick start into the world of Python</item>
+        <item>Looking to become a Full Stack Developer? Then you must consider attending this event which will guide you how to get started in this field.</item>
+        <item>AI is a buzzword of today. Anyone having knowledge in this field will have ocean of possibilites in front of them. So, are you interested in this field? If yes, then hurry up and register fast!!</item>
+        <item>Looking for some guide about how to get started with Blockchain development? Then this event is perfect place to get started. Hurry up and Register.</item>
+
+    </string-array>
+
+    <!--DASP-->
+    <string name="AboutDASP">DASP is the official music society of ASET
+        (Amity School of Engineering Technology). Formed by the students and for the students,
+        DASP is a group of some of the most talented and gifted students in the field of music
+        who came together with the intention of learning, expanding and honing their musical skills.
+        We, the members, believe that talent and passion are the ladders to success.
+        If you think you have the talent and the passion that is required to be a part of
+        our musical ensemble, don’t forget to audition!</string>
+
+    <string name="aboutDasppage">“Music gives a soul to the universe, wings to the mind, flight
+        to the imagination and life to everything.” DASP is the official music society of ASET
+        (Amity School of Engineering Technology). Formed by the students and for the students,
+        DASP is a group of some of the most talented and gifted students in the field of music.
+        From classical, old school folk, soulful sufi songs, Bollywood jams and Punjabi numbers,
+        to beatboxing, pop/rock, progressive mathrock and melodic riffling, they’ve got it all
+        covered. The group comprises of extremely talented guitarists, drummers, even a flutist,
+        as well as euphonious vocalists and groovy beatboxers. Their performances are astounding
+        and enthralling to say the least.
+      </string>
+
+    <!--note item is less than 10-->
+    <string-array name="DASP_Core_Members">
+        <!--1-->
+        <item>Riddhi Sharma</item>
+        <!--2-->
+        <item>Chinmay Tiwari</item>
+        <!--3-->
+        <item>Abhyudaya Sharma</item>
+        <!--4-->
+        <item>Aditya Mehta</item>
+        <!--5-->
+        <item>Shaurya Bhatnagar</item>
+        <!--6-->
+        <item>Salil Gupta</item>
+        <!--7-->
+        <item>Priyank Gupta</item>
+        <!--8-->
+        <item>Ashish Masih</item>
+    </string-array>
+
+    <string-array name="Dasp_CoreMem_Desg">
+        <!--1-->
+        <item>President</item>
+        <!--2-->
+        <item>Vice President</item>
+        <!--3-->
+        <item>Vice President</item>
+        <!--4-->
+        <item>Senior Core </item>
+        <!--5-->
+        <item>Senior Core </item>
+        <!--6-->
+        <item>Senior Core </item>
+        <!--7-->
+        <item>Senior Core </item>
+        <!--8-->
+        <item>Senior Core </item>
+    </string-array>
+
+    <string-array name="DASP_Gen_Members">
+        <!--1-->
+        <item>Aaroh Shankar</item>
+        <!--2-->
+        <item>Udish Bhatnagar</item>
+        <!--3-->
+        <item>Shaurya Wahal</item>
+    </string-array>
+    <string-array name="DASP_Gen_Mem_Desg">
+        <!--1-->
+        <item>Junior Core</item>
+        <!--2-->
+        <item>Junior Core</item>
+        <!--3-->
+        <item>Junior Core</item>
+    </string-array>
+
+    <string-array name="dasp_socialLinks">
+        <!--1-->
+        <item>https://instagram.com/daspmusicsociety?igshid=bcjlos8lmmhn </item>
+        <!--2-->
+        <item>https://www.facebook.com/DASPAMITY/?ref=page_internal</item>
+        <!--3-->
+        <item>https://twitter.com/search?q=dasp%20music%20society%20aset&amp;src=typed_query</item>
+    </string-array>
+
+
+    <string-array name="DASP_EVENT_TITLE">
+        <item>AUDITIONS</item>
+    </string-array>
+
+    <string-array name="DASP_Event_Day">
+        <item>THURSDAY, 3/09/2020</item>
+    </string-array>
+
+    <string-array name="Dasp_EventTime">
+        <item>10:00am- 1:00pm</item>
+    </string-array>
+
+    <string-array name="DaspEventVenue">
+        <item>E3-211</item>
+    </string-array>
+
+    <string-array name="DaspEventPurpose">
+        <item>We are looking for students passionate about Music. If you know any instrument or
+        like to sing hurry up and register for auditions! What are you waiting for??</item>
+    </string-array>
+
+
+    <!--STOKES DETAILS-->
+
+    <string-array name="SROKES_EVENT_TITLE">
+    <item>Painting Workshop</item>
+    <item>Doodle Workshop</item>
+    <item>Madhubani workshop</item>
+    <item>Warli Workshop</item>
+    <item>Kalamkari Workshop</item>
+    <item>Abstract Painting Workshop</item>
+    <item>Portrait Workshop</item>
+    <item>Finger painting competition</item>
+    <item>Free Hand Painting Workshop</item>
+    <item>Graffiti Workshop</item>
+</string-array>
+
+    <string-array name="StrokesEventTime">
+        <item>10:00am- 1:00pm</item>
+        <item>1:00pm-3:30pm</item>
+        <item>4:00pm-5:00pm</item>
+        <item>12:00pm-2:00pm</item>
+        <item>2:00pm-3:00pm</item>
+        <item>1:00pm-3:00pm</item>
+        <item>3:00pm-4:30pm</item>
+        <item>2:15pm-3:45pm</item>
+        <item>11:00am-1:15pm</item>
+        <item>1:00pm-3:20pm</item>
+
+    </string-array>
+
+    <string-array name="StrokesEventVenue">
+        <item>E3-211</item>
+        <item>E1-321</item>
+        <item>C-301</item>
+        <item>E2- Main Auditorium</item>
+        <item>EG-011</item>
+        <item>E1-311</item>
+        <item>E1-310</item>
+        <item>Palm Court in front of E3 Building</item>
+        <item>E3-211</item>
+        <item>E3-110</item>
+
+    </string-array>
+
+    <string-array name="StrokesEventPurpose">
+        <item>This event is for intro of Github and its usage. These days its important for each student to learn about Git and Github. Hence, any student looking to learn about this must join this event.</item>
+        <item>The aim of the event is to demonstrate what security fundamentals is and what are its usages and importance.Mr Ram Agnihotri will be our keynote speaker.</item>
+        <item>With Digital Revolution ,IoT is gaining tremendous popularity. This workshop aims to show students the endless oppurtunities IoT has and will provide in near future.</item>
+        <item>Trivi-a-thon is a three round coding competition. Any student aiming to improve its coding skills must participate in this competetion. Participation cerrtificate will be provided. Winners will get cash prizes and other perks.</item>
+        <item>Is C.P. difficult to you then this workshop is the best way to get head start into the world of C.P! Attend the event to learn how to master the art of programming.</item>
+        <item>Day by day React Native is gaining popularity. In today\'s fast changing world, you must be updated and well aware of new technologies and programming language. This workshop will provide valuable insight to React Native language along with its usage, importance amd scope in future.</item>
+        <item>Pyhton is must to learn programming language these days. Register for this event to get a kick start into the world of Python</item>
+        <item>Looking to become a Full Stack Developer? Then you must consider attending this event which will guide you how to get started in this field.</item>
+        <item>AI is a buzzword of today. Anyone having knowledge in this field will have ocean of possibilites in front of them. So, are you interested in this field? If yes, then hurry up and register fast!!</item>
+        <item>Looking for some guide about how to get started with Blockchain development? Then this event is perfect place to get started. Hurry up and Register.</item>
+
+    </string-array>
+
+    <string name="stokesmaininfo">
+        STROKES is the main art club of ASET. Art is very important in the society because it is an essential ingredient to empowering the hearts of people
+        When activists are showing images of children suffering from poverty or oppression in their campaigns, this is the art pulling the heartstrings of society’s elite and powerful to make changes.
+        Similarly, when photographers publish the photos of war-torn areas, it catches the attention of masses whose hearts reach out for those who need help.
+        When an artist creates great music and movies, it entertains people around the world. This is art, making a difference in society.
+    </string>
+
+
+    <string name="strokesaboutpara">
+        The Fine Arts Society of Amity School of Engineering and Technology. This Club is for those who thrive on excitement, love creative challenges and adore working with other artistic types which helps them exhibit great stamina during crisis.
+        Art is a part of our culture. It should be given importance by the people. It is the expression of our creative ideas and imagination.
+        rom different walks of life but there are some things that are undeniably common to all of us – like love, friendship, and freedom. It reminds us that there are more important things in life. It makes us realize the importance of pursuing our passion and expressing ourselves. At the end of the day, we can say that art makes us a better person – by making us think profoundly, by making us feel deeper, and by making us act and do something other than not doing anything at all.
+        So, what are you waiting for? Hurry up and be a part of the world of art!! Join Strokes and expand the horizons of your creativity.
+    </string>
+    <!--DASP-->
+    <string name="aboutAlfaaz">
+        Welcome to Alfaaz, the official Literary and Debating Society
+        of Amity School of Engineering and Technology, Amity University, Uttar Pradesh.
+        We at Alfaaz strive to achieve the impossible, and to bare the human soul using
+        pieces of tree – bark and distilled ink. All future event updates like venue,
+        dates, rules of procedure, results, etc shall be updated here.
+    </string>
+
+    <string-array name="Alfaaz_Core_Members">
+        <!--1-->
+        <item>Ankita Sharma</item>
+        <!--2-->
+        <item>Shipra Tiwari</item>
+        <!--3-->
+        <item>Adamya Sharma</item>
+        <!--4-->
+        <item>Raj Mehta</item>
+    </string-array>
+
+    <string-array name="Alfaaz_CoreMem_Desg">
+        <!--1-->
+        <item>President</item>
+        <!--2-->
+        <item>Vice President</item>
+        <!--3-->
+        <item>Treasurer</item>
+        <!--4-->
+        <item>Senior Core </item>
+    </string-array>
+
+    <string-array name="Alfaaz_EVENT_TITLE">
+        <item>Writing Workshop</item>
+        <item>Debate Competetion</item>
+        <item>Essay Writing Competetion</item>
+    </string-array>
+
+    <string-array name="Alfaaz_Event_Day">
+        <item>THURSDAY, 3/09/2010</item>
+        <item>MONDAY, 7/09/2019</item>
+        <item>THURSDAY, 17/09/2018</item>
+    </string-array>
+    <string-array name="AlfaazEventTime">
+        <item>11:00am- 1:00pm</item>
+        <item>1:30pm-3:30pm</item>
+        <item>4:00pm-5:00pm</item>
+    </string-array>
+
+    <string-array name="AlfaazEventVenue">
+        <item>E1-211</item>
+        <item>E2-321</item>
+        <item>E3-301</item>
+    </string-array>
+
+    <string-array name="AlfaazEventPurpose">
+        <item>This Workshop is for all those looking to improve their writing skills. Do you feel you need guidance to improve your work
+        then come join us with us and register for the workshop</item>
+        <item>Are you good at debating? So this is perfect time to compete and assess yourself? Hurry Up and register for the contest!!
+        Exciting Cash prizes are available to winners!!</item>
+        <item>Let your write up compete with the best mind. Hurry Up and register fast for this writing competition.</item>
+    </string-array>
+
+
+    <!--DUMMY DATA -->
+    <!--DUMMY MEMBERS LIST-->
+    <string-array name="DummyNames">
+        <item>Alpesh Singh</item>
+        <item>Rajiv Arora</item>
+        <item>Mahesh Gulati</item>
+        <item>Swapnil Dhankar</item>
+        <item>Krishan Batra</item>
+        <item>Rahul Mishra</item>
+        <item>Ved Jain</item>
+        <item>Shankar Pandey</item>
+        <item>Ayush Kumar Makkar</item>
+        <item>Pranjal Mishra</item>
+    </string-array>
+
+    <string-array name="DummySeniorDesignation">
+        <item>President</item>
+        <item>Vice President</item>
+        <item>Treasurer</item>
+        <item>Management Lead</item>
+        <item>PR Lead</item>
+        <item>Content Lead</item>
+        <item>Event Lead</item>
+        <item>Design Lead</item>
+        <item>GS</item>
+        <item>Deputy GS</item>
+    </string-array>
+
+    <string-array name="DummyJuniorDesignation">
+        <item>Junior Member</item>
+        <item>Junior Member</item>
+        <item>Junior Member</item>
+        <item>Junior Member</item>
+        <item>Junior Member</item>
+        <item>Junior Member</item>
+        <item>Junior Member</item>
+        <item>Junior Member</item>
+        <item>Junior Member</item>
+        <item>Junior Member</item>
+    </string-array>
+
+    <string-array name="TeacherDummyNames">
+        <item>Dr. Narayan Shukla</item>
+        <item>Dr. Swapna Thakur</item>
+        <item>Mrs Bhavna Tyagi</item>
+    </string-array>
+    <string-array name="TeacherDummyDesig">
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>A.P. Grade-III</item>
+    </string-array>
+
+    <string-array name="DummyEventName">
+        <item>Workshop</item>
+        <item>Seminar</item>
+        <item>Competition</item>
+    </string-array>
+
+    <string-array name="DummyEventPastDay">
+        <item>THURSDAY, 3/09/2017</item>
+        <item>FRIDAY, 3/07/2019</item>
+        <item>MONDAY, 3/08/2018</item>
+    </string-array>
+
+    <string-array name="DummyEventFutureDay">
+        <item>THURSDAY, 3/09/2020</item>
+        <item>FRIDAY, 3/10/2020</item>
+        <item>MONDAY, 3/11/2020</item>
+    </string-array>
+
+    <string-array name="DummyEventTime">
+        <item>2:00pm-4:00pm</item>
+        <item>1:00pm-5:00pm</item>
+        <item>3:00pm-3:50pm</item>
+    </string-array>
+
+    <string-array name="DummyEventVenue">
+        <item>E3-211</item>
+        <item>F2-Auditorium</item>
+        <item>E1-112</item>
+    </string-array>
+
+    <string-array name="DummyEventPurpose">
+        <item>Get your experience brushed up with our workshop and see what our speakers have to offer.
+               Participation certificate and Ods will be provided. Hurry Up and register!!</item>
+        <item>Renowned Speaker Dr. SK Mishra will be our keynote speaker. ODs will be provided.</item>
+        <item>40 minutes Competition to judge your skill and talent. Compete with the best brains.
+            Participation certificate will be provided. Winners will get trophy and other perks.</item>
+    </string-array>
+
+    <string name="AliasAbout">
+        Alias stands for Amity Linux Assistance Sapience and is the official club of Aset. We aim to
+        boost interactive learning among students. ALiAS welcomes each and every student
+        of amity irrespective of their department.There is no limit on how much and what you can learn!
+        Hurry Up and Be a member of Alias!
+    </string>
+
+    <string name="AliasMainAbout">
+        Started back in 2010; With main aim to foster the growth of use of Linux for the developers
+        in the campus and to promote the culture of hacking and sharing. ALiAS is now a platform
+        for upcoming developers for finding exposure by meeting the people working in related
+        industries, learning various languages and becoming a better developer.
+        Join the club and which is just not about certificates or designation(s):
+        Stand out of crowd and learn unique skills from people already working in the industry!
+        Find like minded Delhi/NCR Tech Communities.
+        Find mentors for GSoC
+        Learn Linux, Android, Networking, etc.
+        There is no limit on how much and what you can learn!
+        Chance to find Interships under our Alumni.
+         ALiAS welcomes each and every student of amity irrespective of their department.
+       Already know something? Teach it to others! That\'s how we work!
+    </string>
+
+    <string name="CezzaneAbout">
+        Dance is more than the exploring of different ways to make a shape or learning a
+        series of steps to music; it is a way of moving that uses the body as an instrument
+        of expression and communication. So What are you waiting for ? hurry up and become part of the
+        best dance club in our college.
+    </string>
+
+    <string name="AzmieAbout">Drama allows students to communicate with and understand others
+        in new ways. Drama is an important tool for preparing students to live and work in a
+        world that is increasingly TEAM-ORIENTED rather than hierarchical.
+        Drama also helps students develop TOLERANCE and EMPATHY. So What are you waiting for?
+     Do you want to discover the world of drama? Hurry Up and become a member of Azmie!!</string>
+
+</resources>
